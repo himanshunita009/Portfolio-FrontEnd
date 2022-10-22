@@ -1,0 +1,16 @@
+.project-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5.5rem;
+}
+
+ 
+.goback {
+    z-index: -1;
+}

@@ -1,0 +1,75 @@
+.study-card-back {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2vw;
+    background-color: white;
+    color: var(--themecolour);
+    transition: transform 0.2s;
+    width: fit-content;
+    margin: auto;
+}
+.study-card-back > img {
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+.study-card-back:hover {
+    transform: scale(1.1,1.1);
+}
+.study-card-back > .view-more-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    align-self: center;
+}
+.view-more-link > .material-icons {
+    transition: transform 0.2s;
+}
+.view-more-link:hover > .material-icons {
+    transform: rotate(360deg);
+}
+.show {
+    display: flex;
+}
+.hidden {
+    display: none;
+}
+.study-card-back > .institute-name {
+    font-size: calc(0.8vw + 1rem);
+    font-weight: 500;
+}
+.study-card-back > .course-name , .view-more-link , .view-more-link > .material-icons {
+    font-size: calc(0.2vw + 1rem);
+    font-weight: 400;
+}
+.view-more-link {
+    margin-top: 0.2rem;
+}
+
+@media screen and (max-width: 750px) {
+    .study-card-back > img {
+        height: calc(4vw + 80px);
+        width: calc(4vw + 80px);
+    }
+    .study-card-back > .institute-name {
+        font-size: calc(0.8vw + 0.8rem);
+        font-weight: 500;
+    }
+    .study-card-back > .course-name , .view-more-link {
+        font-size: calc(0.2vw + 0.8rem);
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 500px) {
+    .study-card-back > img {
+        height: calc(2vw + 80px);
+        width: calc(2vw + 80px);
+    }
+    .study-card-back {
+        padding: 0.25rem;
+        width: 80%;
+    }
+}

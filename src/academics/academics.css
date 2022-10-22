@@ -1,0 +1,31 @@
+.academic-main  {
+    display: flex;
+    flex-direction: column;
+}
+.academic-main > .academic-head {
+    font-size: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    align-self: center;
+}
+.academic-card-back {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 2rem;
+}
+@media screen and (max-width: 650px) {
+    .academic-main > .academic-head {
+        font-size: 2.5rem;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .academic-card-back {
+        grid-template-columns: auto auto ;
+        gap: 1.2rem;
+    }
+    .academic-main > .academic-head {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,20 @@
+.solidButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 0.3rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    background-color: white;
+    color: var(--themecolour);
+}
+.solidButton > * {
+    margin: 0.3rem;
+    font-size: 1.5rem;
+}
+.solidButton > i {
+    font-size: 2rem;
+}

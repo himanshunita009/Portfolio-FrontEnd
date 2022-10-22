@@ -1,0 +1,10 @@
+.profile-link {
+    text-decoration: none;
+    color: white;
+    background-color: var(--themecolour);
+    margin: 1rem auto;
+
+}
+.profile-link > i {
+    font-weight: bold;
+}

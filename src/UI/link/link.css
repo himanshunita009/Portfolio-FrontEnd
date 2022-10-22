@@ -1,0 +1,11 @@
+.mylink {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    border-bottom: 0.3rem solid transparent;
+    transition: border 0.2s;
+}
+.mylink:hover {
+    cursor: pointer;
+    border-bottom: 0.3rem solid white;
+}

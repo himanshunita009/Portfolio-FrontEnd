@@ -1,0 +1,40 @@
+.details-back {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.85);
+    overflow: hidden;
+}
+.details-back > .details {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: var(--themecolour);
+} 
+.details-list > li {
+    color: var(--themecolour);
+}
+.details-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.details-head > .material-icons {
+    cursor: pointer;
+}
+.show {
+    display: flex;
+}
+.hidden {
+    display: none;
+}
+.course-institute-name {
+    font-size: var(--introtext);
+    font-weight: bold;
+}

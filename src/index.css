@@ -1,5 +1,21 @@
+:root {
+  --img1100: 250px;
+  --margin05rem: 0.5rem;
+  --introname: 3rem;
+  --introtext: 1.5rem;
+  --img200: 200px;
+  --size205rem: 2.5rem;
+  --size105rem: 1.5rem;
+  --themecolour: rgb(95, 2, 31);
+}
+
+html {
+  background-color: var(--themecolour);
+  color: aliceblue;
+  scroll-behavior: smooth;
+  
+}
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +26,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.heading {
+  font-size: 3.5rem;
+}
+.text {
+  font-size: 2rem;
 }
